@@ -9,6 +9,6 @@
 #
 
 # Weather APi Not Working
-# Note: Note: I am traying to get weather information with this api but i am not getting weather information. Please check.
+# Note: Note: I am trying to get weather information with this api but i am not getting weather information. Please check.
 # Error: Please note that using One Call 3.0 requires a separate subscription to the One Call by Call plan. Learn more here https://openweathermap.org/price.
 # Errorcode: 401
