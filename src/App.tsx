@@ -86,7 +86,7 @@ function App() {
       <div className="row mt-4">
 
         {/* Start Banner  */}
-        <div className="col-sm-9">
+        <div className="col-sm-9 order-sm-first order-last">
 
           {newsData.map((data, key) => {
             if (key == 0)
