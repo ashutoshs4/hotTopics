@@ -1,4 +1,4 @@
-# How to run this code
+# How to run this application
 # 1. You need to Create folder.
 # 2. After that open git bash.
 # 3. You can take pull form here "https://github.com/ashutoshs4/globiter.git"
