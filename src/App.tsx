@@ -109,7 +109,7 @@ function App() {
 
         {/* End Banner */}
 
-        <div className="col-sm-3">
+        <div className="col-sm-3 d-none d-lg-block d-md-block">
           <div className="rectangle">
             <div className="d-flex justify-content-between">
               <div>

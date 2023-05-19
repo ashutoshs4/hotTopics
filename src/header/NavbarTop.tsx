@@ -1,11 +1,12 @@
 import moment from "moment";
 import LogoutSvg from "../svgIcons/LogoutSvg";
+import MobileWeekDaysWeather from "../weather/MobileWeekDaysWeather";
 
 
 function NavbarTop() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-light mt-4">
+            <nav className="navbar navbar-expand navbar-expand-sm bg-light mt-4">
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -37,10 +38,15 @@ function NavbarTop() {
             </nav>
 
             <div className="row mt-4">
+
+                <div className="d-lg-none d-md-none">
+                    <MobileWeekDaysWeather />
+                </div>
+
                 <div className="col-sm">
                     <h3 className="hot-topics">Hot Topics</h3>
                 </div>
-                <div className="col-sm">
+                <div className="col-sm d-none d-lg-block d-md-block">
                     <h3 className="float-md-end date-show">{moment().format('dddd DD MMMM YY') + "’"}</h3>
                 </div>
             </div>
